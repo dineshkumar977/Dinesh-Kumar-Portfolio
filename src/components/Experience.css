@@ -1,0 +1,51 @@
+.experience {
+  padding: 100px 8%;
+  /* background: #020617; */
+  background-color: white;
+  color: white;
+}
+
+.experience h2 {
+
+  position:relative;
+  display:inline-block;
+  margin-bottom: 30px;
+  font-size: 50px;
+  /* margin-bottom: 50px; */
+  color: black;
+}
+
+
+.timeline-card{
+  background:#0f172a;
+  padding:40px;
+  border-radius:20px;
+
+  border:1px solid
+  rgba(255,255,255,.08);
+
+  transition:.4s;
+}
+.timeline-card:hover{
+  transform:translateY(-10px);
+
+  box-shadow:
+  0 0 40px
+  rgba(56,189,248,.15);
+}
+
+.timeline-card span {
+  color: #38bdf8;
+}
+
+.timeline-card ul {
+  margin-top: 20px;
+}
+
+.timeline-card li {
+  margin-bottom: 10px;
+}
+
+.timeline-card h3 {
+  margin-top: 15px;
+}

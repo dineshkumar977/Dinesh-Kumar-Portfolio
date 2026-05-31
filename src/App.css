@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #020617;
+}
+.progress-bar{
+  position:fixed;
+  top:0;
+  left:0;
+  height:4px;
+  width:100%;
+  background:#38bdf8;
+  z-index:9999;
+}
+.cursor-glow{
+  width:300px;
+  height:300px;
+  background:#38bdf8;
+  position:fixed;
+  border-radius:50%;
+  filter:blur(120px);
+  opacity:.15;
+  pointer-events:none;
+  transform:translate(-50%,-50%);
+  z-index:0;
+}
+section,
+nav,
+footer{
+  position:relative;
+  z-index:1;
+}
